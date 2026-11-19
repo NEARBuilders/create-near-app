@@ -2,6 +2,7 @@ name: Test Contract RS
 on: push
 jobs:
   tests:
+    timeout-minutes: 60
     strategy:
       matrix:
         platform: [ubuntu-latest]
